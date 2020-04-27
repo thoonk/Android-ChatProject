@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/_left"/>
+
+        <TextView
+            android:id="@+id/gName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_toRightOf="@id/leftImage"
+            android:textSize="12dp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/imageViewleft"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#888888"
+        android:layout_margin="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/getTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/sendTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+    <View
+        android:id="@+id/imageViewright"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#888888"
+        android:layout_margin="10dp"
+        android:layout_weight="1"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/_right"/>
+        <TextView
+            android:id="@+id/sName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_toLeftOf="@id/rightImage"
+            android:textSize="12dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

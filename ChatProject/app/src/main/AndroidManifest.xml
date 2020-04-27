@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chatproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3"
+        android:label="홍연"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".S_item" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".ChatData" />
+    </application>
+
+</manifest>
